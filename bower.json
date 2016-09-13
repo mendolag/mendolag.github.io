@@ -1,0 +1,29 @@
+{
+  "name": "mendolag.github.io",
+  "homepage": "mendolag.github.io",
+  "authors": [
+    "mendolag <mendola5@hotmail.com>"
+  ],
+  "description": "Personal Webpage",
+  "main": "index.html",
+  "keywords": [
+    "Pesonal",
+    "Webapage",
+    "Mendola"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.6.1",
+    "paper-tabs": "PolymerElements/paper-tabs#^1.6.2",
+    "iron-pages": "PolymerElements/iron-pages#^1.0.8",
+    "paper-header-panel": "PolymerElements/paper-header-panel#^1.1.6"
+  }
+}
