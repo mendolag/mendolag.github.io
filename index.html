@@ -68,11 +68,27 @@
     <title>Welcome to my personal page</title>
 </head>
 <body class="fullbleed layout vertical">
-<paper-header-panel class="flex">
+<paper-scroll-header-panel condenses keep-condensed-header header-height="256" condensed-header-height="140">
+
     <paper-toolbar>
-        <div>Hello World!</div>
+
+        <paper-icon-button icon="arrow-back"></paper-icon-button>
+        <div class="spacer"></div>
+        <div class="bottom indent bottom-text" self-end>
+            <div>Giuseppe Mendola</div>
+            <!--<div class="subtitle">Iisque perfecto dissentiet cum et</div>-->
+        </div>
+        <!--<iron-icon class="bottom bookmark" icon="bookmark"></iron-icon>-->
+
     </paper-toolbar>
-</paper-header-panel>
+
+    <div class="content">
+
+        <!--<sample-content size="100"></sample-content>-->
+
+    </div>
+
+</paper-scroll-header-panel>
 
 </body>
 </html>
